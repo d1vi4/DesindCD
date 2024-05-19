@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poetsen One;
+}
+.start{
+    background-color: rgba(0, 0, 0, 0.725);
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    padding: 5px;
+}
+.start:hover{
+    color: white;
+    cursor: pointer;
+}
+h4{
+    color: rgba(180, 180, 180, 0.443);
+}
+h4:hover{
+    scale: 1.3;
+    transition: 2s;
+    color: white;
+}
+i{
+    color: rgba(180, 180, 180, 0.443);
+}
+i:hover{
+    scale: 1.3;
+    transition: 2s;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.h1{
+    text-align: center;
+    color: rgba(139, 139, 139, 0.443);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.bab{
+    display: flex;
+    justify-content: space-around;
+    border: 2px black solid;
+    width: 400px;
+    margin-left: 20px;
+    height: 250px;
+    padding: 30px;
+}
+.ego{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border: 25px black double;
+    border-radius: 100px;
+    rotate: 90deg;
+    margin-top: 35px;
+}
+.avto{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    border: 30px black dashed;
+    border-radius: 100px;
+    rotate: 45deg;
+    margin-top: 35px;
+}
+.anti{
+    width: 170px;
+    height: 150px;
+    background-color: wheat;
+    border: 20px green inset;
+    border-radius: 100px;
+    rotate: 230deg;
+    margin-top: 35px;
+}
+.ha{
+    margin-top: 35px;
+}
+.but{
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.but:hover{
+    border: 2px rgba(74, 65, 65, 0.443) solid;
+    background-color: rgba(88, 88, 100, 0.46);
+    transition: 2s;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.ani{
+    width: 170px;
+    height: 100px;
+    background-color: goldenrod;
+    border: 10px violet outset;
+    border-radius: 100px;
+    rotate: 140deg;
+    margin-top: 35px;
+}
+.huh{
+    width: 170px;
+    height: 100px;
+    background-color: rgba(75, 105, 180, 0.784);
+    border: 10px rgba(9, 39, 137, 0.795) groove;
+    border-radius: 100px;
+    margin-top: 35px;
+}
+.guv{
+    width: 170px;
+    height: 100px;
+    background-color: rgba(119, 105, 72, 0.578);
+    border: 25px rgb(79, 44, 52) dotted ;
+    border-radius: 100px;
+    rotate: 24deg;
+    margin-top: 35px;
+}
+.vov{
+    width: 140px;
+    height: 121px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(157,157,157,1) 100%);
+    border: 25px rgb(94, 35, 49) inset  ;
+    border-radius: 20px;
+    rotate: 24deg;
+    margin-top: 35px;
+}
+.aga{
+    width: 140px;
+    height: 121px;
+    background-color: firebrick;
+    border: 25px rgb(159, 75, 95) ridge;
+    border-radius: 20px;
+    rotate: 52deg;
+    margin-top: 35px;
+}
+.gav{
+    width: 150px;
+    height: 141px;
+    background-color: rgb(161, 184, 106);
+    border: 15px rgb(101, 31, 5) solid;
+    border-radius: 20px;
+    rotate: 52deg;
+    margin-top: 35px;
+}
+.bab{
+    transition: 2s;
+}
+.bab:hover{
+    scale: 1.1;
+    background-color: rgba(231, 227, 222, 0.08);
+}

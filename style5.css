@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poetsen One;
+}
+.start{
+    background-color: rgba(0, 0, 0, 0.725);
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    padding: 5px;
+}
+.start:hover{
+    color: white;
+    cursor: pointer;
+}
+h4{
+    color: rgba(180, 180, 180, 0.443);
+}
+h4:hover{
+    scale: 1.3;
+    transition: 2s;
+    color: white;
+}
+i{
+    color: rgba(180, 180, 180, 0.443);
+}
+i:hover{
+    scale: 1.3;
+    transition: 2s;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.fin{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: rgb(118, 118, 118);
+}

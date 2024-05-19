@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poetsen One;
+}
+body{
+    background-image: url(./221272761.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.welcome{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(139, 139, 139, 0.443);
+    font-size: 70px;
+}
+.form{
+    border: 2px solid black;
+    width: 30%;
+    margin: 10px auto;
+    height: 600px;
+    color: rgba(139, 139, 139, 0.778);
+    border-radius: 10px;
+    background-color: rgba(133, 132, 132, 0.208);
+}
+input{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    background: none;
+    border-radius: 15px;
+    border: 2px black solid;
+    padding: 5px; 
+    background-color: rgba(176, 175, 175, 0.696);
+}
+#name{
+    margin-top: 50px;
+}
+input::placeholder{
+    color: black;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 35px;
+    background: none;
+    border-radius: 15px;
+    border: 2px black solid;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+    transition: 2s;
+}
+.p{
+    text-align: center;
+}
+.asas{
+    text-decoration: none;
+}
